@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace ApiController;
+namespace Swag\ApiController;
 
 use Shopware\Core\Framework\Plugin;
 

@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace ApiController\Controller;
+namespace Swag\ApiController\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
@@ -9,7 +9,7 @@ use Symfony\Component\HttpFoundation\JsonResponse;
 class MyController extends AbstractController
 {
     /**
-     * @Route("/api/v{version}/swag/my-api-action", name="api.action.swag.my-api-action", methods={"GET"})
+     * @Route("/api/v1/swag/my-api-action", name="api.action.swag.my-api-action", methods={"GET"})
      */
     public function myFirstApi(): JsonResponse
     {
