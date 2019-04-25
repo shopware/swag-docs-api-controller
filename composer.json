@@ -15,12 +15,12 @@
     "extra": {
         "shopware-plugin-class": "Swag\\ApiController\\ApiController",
         "label": {
-            "de_DE": "Beispiel API Controller",
-            "en_GB": "Example API controller"
+            "de-DE": "Beispiel API Controller",
+            "en-GB": "Example API controller"
         },
         "description": {
-            "de_DE": "Beispiel API Controller",
-            "en_GB": "Example API controller"
+            "de-DE": "Beispiel API Controller",
+            "en-GB": "Example API controller"
         }
     },
     "autoload": {
