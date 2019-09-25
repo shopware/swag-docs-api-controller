@@ -2,10 +2,14 @@
 
 namespace Swag\ApiController\Controller;
 
+use Shopware\Core\Framework\Routing\Annotation\RouteScope;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\HttpFoundation\JsonResponse;
 
+/**
+ * @RouteScope(scopes={"api"})
+ */
 class MyController extends AbstractController
 {
     /**
