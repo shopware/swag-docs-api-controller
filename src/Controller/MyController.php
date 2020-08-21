@@ -13,7 +13,7 @@ use Symfony\Component\HttpFoundation\JsonResponse;
 class MyController extends AbstractController
 {
     /**
-     * @Route("/api/v2/swag/my-api-action", name="api.action.swag.my-api-action", methods={"GET"})
+     * @Route("/api/v{version}/swag/my-api-action", name="api.action.swag.my-api-action", methods={"GET"})
      */
     public function myFirstApi(): JsonResponse
     {
