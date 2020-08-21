@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-./../../../vendor/bin/phpunit
+composer dump-autoload
+./../../../vendor/bin/phpunit "$@"
